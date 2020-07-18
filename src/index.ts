@@ -1,0 +1,1 @@
+export { default as getUserAgentHeader } from './get-user-agent'
