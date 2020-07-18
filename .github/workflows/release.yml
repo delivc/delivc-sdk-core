@@ -37,7 +37,7 @@ jobs:
       - name: Install
         run: npm install
       - name: Build
-        run: npm build
+        run: npm run build
       - name: Release
         run: npx semantic-release
         env:
