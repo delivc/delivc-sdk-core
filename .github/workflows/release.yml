@@ -18,8 +18,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: Install
         run: npm install
-      - name: Test
-        run: npm test
   release:
     if: github.event_name == 'push' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
