@@ -1,5 +1,5 @@
 {
-  "name": "delivc-sdk-core",
+  "name": "@delivc/delivc-sdk-core",
   "version": "0.0.0-semantically-released",
   "description": "Core modules for the Delivc JS SDK",
   "homepage": "https://docs.developer.delivc.com/javascript",
