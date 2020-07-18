@@ -51,7 +51,7 @@ function getNodeOS() {
     return null
 }
 
-export default function getUserAgentHeader (sdk, application, integration, feature) {
+export default function getUserAgentHeader (sdk: string, application: string, integration: string, feature?: string) {
     const headerParts = []
 
     if (application) {
