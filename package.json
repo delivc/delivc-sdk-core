@@ -1,6 +1,6 @@
 {
   "name": "delivc-sdk-core",
-  "version": "0.0.0",
+  "version": "0.0.0-development",
   "description": "Core modules for the Delivc JS SDK",
   "homepage": "https://docs.developer.delivc.com/javascript",
   "main": "dist/index.js",
@@ -18,7 +18,8 @@
     "clean": "rimraf coverage && rimraf dist",
     "build": "yarn clean && rollup -c",
     "lint": "eslint --ignore-path .gitignore ./src/**/*",
-    "test": "jest"
+    "test": "jest",
+    "semantic-release": "semantic-release"
   },
   "engines": {
     "node": ">=6"
@@ -42,6 +43,7 @@
     "jest": "^26.1.0",
     "rimraf": "^3.0.2",
     "rollup": "^2.22.0",
+    "semantic-release": "^17.1.1",
     "ts-jest": "^26.1.3",
     "tslib": "^2.0.0",
     "typescript": "^3.9.7"
