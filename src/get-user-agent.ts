@@ -45,7 +45,8 @@ function getNodeOS() {
         sunos: 'Linux',
         win32: 'Windows'
     }
-    if (os in osMap) {
+    if (osMap.hasOwnProperty(os)) {
+        // @ts-ignore
         return `${osMap[os] || 'Linux'}/${version}`
     }
     return null
